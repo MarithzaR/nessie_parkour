@@ -294,7 +294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -116}
+  m_AnchoredPosition: {x: 0, y: -145}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &109875573
@@ -396,7 +396,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 249, y: -172}
+  m_AnchoredPosition: {x: 475, y: -31}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &239373627
@@ -504,6 +504,7 @@ GameObject:
   - component: {fileID: 364978493}
   - component: {fileID: 364978495}
   - component: {fileID: 364978494}
+  - component: {fileID: 364978496}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -528,7 +529,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -186, y: -147}
+  m_AnchoredPosition: {x: -410, y: -153}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364978494
@@ -614,7 +615,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -43.453857, y: -80.69997, z: -411.7766, w: -20.692307}
+  m_margin: {x: -43.453857, y: -80.69997, z: -855.2245, w: -68.89316}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -628,6 +629,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364978492}
   m_CullTransparentMesh: 1
+--- !u!114 &364978496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364978492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18c8225790ea7943942933226286f48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 364978494}
+  lines:
+  - 
+  textSpeed: 10
 --- !u!1 &1367684432
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,7 +758,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1367684432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3e20049d6320ef4383b4ef82102d674, type: 3}
+  m_Script: {fileID: 11500000, guid: 02045f449c703c94f9d0647d8426e295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1412510843
