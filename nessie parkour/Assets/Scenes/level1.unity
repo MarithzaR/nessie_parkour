@@ -372,7 +372,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451, y: -222}
+  m_AnchoredPosition: {x: -451, y: -213}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &363164126
@@ -389,7 +389,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 363164127}
   lines:
-  - 
+  - after begging your elder to gain your independence you were put to the test to
+    make it back home before curfew
+  - you took up the offer but ended up getting loss
+  - if you follow the trail you must make it back home right?
+  - lets go this way then before it gets late
   textSpeed: 10
 --- !u!114 &363164127
 MonoBehaviour:
@@ -421,7 +425,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.16470589, g: 0.16470589, b: 0.16470589, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -474,7 +478,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -11.365967, z: -433.5304, w: -4.8711243}
+  m_margin: {x: 0, y: -49.54657, z: -433.5304, w: -16.619019}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

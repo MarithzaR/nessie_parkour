@@ -1367,9 +1367,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a18c8225790ea7943942933226286f48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 0}
+  textComponent: {fileID: 612880653}
   lines:
-  - 
+  - wow seems we made it to far but thats ok!
+  - this is the grand nessie canyon!
+  - we should keep following the path to make it home
   textSpeed: 10
 --- !u!114 &612880653
 MonoBehaviour:
@@ -18794,8 +18796,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1.6, y: 1.6}
+    newSize: {x: 1.6, y: 1.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -18881,15 +18883,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1000
-  m_Sprite: {fileID: -1750836871, guid: 86d1836d3ad5d704baad4f466b919870, type: 3}
+  m_Sprite: {fileID: -1748242322, guid: 12c88045aad6c67479052b81186aec81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.6, y: 1.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2125346854
